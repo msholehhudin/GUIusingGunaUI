@@ -1,0 +1,79 @@
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\TOA's Project.exe.config
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\TOA's Project.exe
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\TOA's Project.pdb
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\Guna.UI.dll
+E:\Sholeh\New System\TOA's Project\TOA's Project\obj\Debug\TOA_s_Project.Properties.Resources.resources
+E:\Sholeh\New System\TOA's Project\TOA's Project\obj\Debug\TOA's Project.csproj.GenerateResource.cache
+E:\Sholeh\New System\TOA's Project\TOA's Project\obj\Debug\TOA's Project.csproj.CoreCompileInputs.cache
+E:\Sholeh\New System\TOA's Project\TOA's Project\obj\Debug\TOA's Project.csproj.CopyComplete
+E:\Sholeh\New System\TOA's Project\TOA's Project\obj\Debug\TOA's Project.exe
+E:\Sholeh\New System\TOA's Project\TOA's Project\obj\Debug\TOA's Project.pdb
+E:\Sholeh\New System\TOA's Project\TOA's Project\obj\Debug\TOA_s_Project.FormMain.resources
+E:\Sholeh\New System\TOA's Project\TOA's Project\obj\Debug\TOA_s_Project.UserControlDashboard.resources
+E:\Sholeh\New System\TOA's Project\TOA's Project\obj\Debug\TOA_s_Project.FormLogin.resources
+E:\Sholeh\New System\TOA's Project\TOA's Project\obj\Debug\TOA's Project.csproj.AssemblyReference.cache
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\BouncyCastle.Crypto.dll
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\Google.Protobuf.dll
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\K4os.Compression.LZ4.dll
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\K4os.Hash.xxHash.dll
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\MySql.Data.dll
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\System.Buffers.dll
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\System.Memory.dll
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\System.Numerics.Vectors.dll
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\Ubiety.Dns.Core.dll
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\ZstdNet.dll
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\Google.Protobuf.pdb
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\Google.Protobuf.xml
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\K4os.Compression.LZ4.xml
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\K4os.Hash.xxHash.xml
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\MySql.Data.xml
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\System.Buffers.xml
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\System.Memory.xml
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\System.Numerics.Vectors.xml
+E:\Sholeh\New System\TOA's Project\TOA's Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Sholeh\New System\TOA's Project\TOA's Project\obj\Debug\TOA_s_Project.connection.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\TOA's Project.exe.config
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\TOA's Project.exe
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\TOA's Project.pdb
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\BouncyCastle.Crypto.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\Google.Protobuf.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\K4os.Compression.LZ4.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\K4os.Hash.xxHash.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\MySql.Data.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\System.Buffers.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\System.Memory.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\System.Numerics.Vectors.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\Ubiety.Dns.Core.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\ZstdNet.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\Google.Protobuf.pdb
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\Google.Protobuf.xml
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\K4os.Compression.LZ4.xml
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\K4os.Hash.xxHash.xml
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\MySql.Data.xml
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\System.Buffers.xml
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\System.Memory.xml
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\System.Numerics.Vectors.xml
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.connection.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.FormLogin.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.FormMain.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.Properties.Resources.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.UserControlDashboard.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA's Project.csproj.GenerateResource.cache
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA's Project.csproj.CoreCompileInputs.cache
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA's Project.csproj.CopyComplete
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA's Project.exe
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA's Project.pdb
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.FormInventory.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.FormInventoryInfo.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.UserControlInv.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.UserControlInventory.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.UserControlTry.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\Guna.UI2.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA's Project.csproj.AssemblyReference.cache
