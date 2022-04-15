@@ -16,12 +16,37 @@ namespace TOA_s_Project
     {
         InventoryClass inv = new InventoryClass();
         private readonly UserControlInventory _parent;
+        public string id, Serial_Number, Item_Name, Barcode, Brand, Item_Type, Quantity, Location, Description;
         public FormInventory(UserControlInventory parent)
         {
             InitializeComponent();
             _parent = parent;
         }
-
+        public void Create()
+        {
+            inv.Serial_Number = SerialNumber.Text;
+            inv.Item_Name = itemName.Text;
+            inv.Barcode = barcode.Text;
+            inv.Brand = brand.Text;
+            inv.Item_type = itemType.Text;
+            inv.Quantity = quantity.Text;
+            inv.Location = location.Text;
+            inv.Description = description.Text;
+            inv.AddInventory();
+        }
+        public void UpdateInfo()
+        {
+            lbltext.Text = "Update Inventory";
+            btnSave.Text = "Update";
+            SerialNumber.Text = Serial_Number;
+            itemName.Text = Item_Name;
+            barcode.Text = Barcode;
+            brand.Text = Brand;
+            itemType.Text = Item_Type;
+            quantity.Text = Quantity;
+            location.Text = Location;
+            description.Text = Description;
+        }
         private void btnSave_Click(object sender, EventArgs e)
         {
            
@@ -65,23 +90,18 @@ namespace TOA_s_Project
                 Create();
                 Clear();
             }
+            if(btnSave.Text == "Update")
+            {
+                
+                inv.UpdateInventory();
+                Clear();
+            }
             _parent.Display();
         }
         public void Clear()
         {
             SerialNumber.Text = itemName.Text = barcode.Text = brand.Text = itemType.Text = quantity.Text = location.Text = description.Text = string.Empty;
         }
-        public void Create()
-        {
-            inv.Serial_Number = SerialNumber.Text;
-            inv.Item_Name = itemName.Text;
-            inv.Barcode = barcode.Text;
-            inv.Brand = brand.Text;
-            inv.Item_type = itemType.Text;
-            inv.Quantity = quantity.Text;
-            inv.Location = location.Text;
-            inv.Description = description.Text;
-            inv.AddInventory();
-        }
+       
     }
 }

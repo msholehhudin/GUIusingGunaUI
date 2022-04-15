@@ -13,7 +13,6 @@ namespace TOA_s_Project
 {
     public partial class FormInventoryInfo : Form
     {
-        
         //InventoryClass inv = new InventoryClass();
         public FormInventoryInfo()
         {

@@ -25,30 +25,17 @@ namespace TOA_s_Project.Database
         //FOR ID
         public string id { get; set; }
 
-
-        /*public string search_text;*/
-        private string query = "SELECT * FROM inventory";
-
         //Read Properties
-        public DataTable dt = new DataTable();
-        public DataSet ds = new DataSet();
        
-        
-        public void Datagrid_data()
-        {
-            dt.Clear();
-            MySqlDataAdapter da = new MySqlDataAdapter(query, conn);
-            da.Fill(ds);
-            dt = ds.Tables[0];
-        }
+        public DataSet ds = new DataSet();
 
-        public void Filter_data()
+        public void Filter_data(String query_filter, DataGridView dgv)
         {
-        /*    dt.Clear();
-            string query_filter = "SELECT * FROM inventory WHERE item_name='" + search_text + "'";
-            MySqlDataAdapter da = new MySqlDataAdapter(query_filter, conn);
-            da.Fill(ds);
-            dt = ds.Tables[0];*/
+            string sql = query_filter;
+            MySqlDataAdapter da = new MySqlDataAdapter(sql, conn);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dgv.DataSource = dt;
         }
 
         public void AddInventory()
@@ -90,27 +77,34 @@ namespace TOA_s_Project.Database
             conn.Open();
             using (MySqlCommand cmd = new MySqlCommand())
             {
-                cmd.CommandText = "UPDATE inventory SET ns=@ns, item_name=@name, barcode=@barcode, brand=@brand, item_type=@type, quantity=@quantity, location=@loc, description=@desc WHERE id=@id";
+                cmd.CommandText = "UPDATE inventory SET ns = @ns, item_name = @item_name, barcode = @barcode, brand = @brand, item_type = @item_type, quantity = @quantity, location = @location, description = @description WHERE id = @id";
                 cmd.CommandType = CommandType.Text;
                 cmd.Connection = conn;
 
+                cmd.Parameters.Add("@id", MySqlDbType.VarChar).Value = id;
                 cmd.Parameters.Add("@ns", MySqlDbType.VarChar).Value = Serial_Number;
-                cmd.Parameters.Add("@name", MySqlDbType.VarChar).Value = Item_Name;
+                cmd.Parameters.Add("@item_name", MySqlDbType.VarChar).Value = Item_Name;
                 cmd.Parameters.Add("@barcode", MySqlDbType.VarChar).Value = Barcode;
                 cmd.Parameters.Add("@brand", MySqlDbType.VarChar).Value = Brand;
-                cmd.Parameters.Add("@type", MySqlDbType.VarChar).Value = Item_type;
+                cmd.Parameters.Add("@item_type", MySqlDbType.VarChar).Value = Item_type;
                 cmd.Parameters.Add("@quantity", MySqlDbType.VarChar).Value = Quantity;
-                cmd.Parameters.Add("@loc", MySqlDbType.VarChar).Value = Location;
-                cmd.Parameters.Add("@desc", MySqlDbType.VarChar).Value = Description;
+                cmd.Parameters.Add("@location", MySqlDbType.VarChar).Value = Location;
+                cmd.Parameters.Add("@description", MySqlDbType.VarChar).Value = Description;
 
-                cmd.Parameters.Add("@did", MySqlDbType.VarChar).Value = id;
-
-                cmd.ExecuteNonQuery();
+                try
+                {
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Updated Successfully.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (MySqlException ex)
+                {
+                    MessageBox.Show("MySQL Connection Error !" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
                 conn.Close();
             }
 
         }
-        public void DeleteInventory()
+        public void DeleteInventory(string id)
         {
             conn.Open();
             using (MySqlCommand cmd = new MySqlCommand())
@@ -119,9 +113,17 @@ namespace TOA_s_Project.Database
                 cmd.CommandType = CommandType.Text;
                 cmd.Connection = conn;
 
-                cmd.Parameters.Add("@did", MySqlDbType.VarChar).Value = id;
+                cmd.Parameters.Add("@id", MySqlDbType.VarChar).Value = id;
 
-                cmd.ExecuteNonQuery();
+                try
+                {
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Deleted Successfully.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (MySqlException ex)
+                {
+                    MessageBox.Show("MySQL Connection Error !" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
                 conn.Close();
             }
         }
