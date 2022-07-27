@@ -1,7 +1,7 @@
 ﻿
 namespace TOA_s_Project
 {
-    partial class FormInventory
+    partial class FormListDevices
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,6 @@ namespace TOA_s_Project
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbltext = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -52,8 +51,6 @@ namespace TOA_s_Project
             this.SerialNumber = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.itemName = new System.Windows.Forms.TextBox();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -66,7 +63,7 @@ namespace TOA_s_Project
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(396, 79);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 1;
             // 
             // lbltext
             // 
@@ -75,9 +72,9 @@ namespace TOA_s_Project
             this.lbltext.ForeColor = System.Drawing.SystemColors.Control;
             this.lbltext.Location = new System.Drawing.Point(12, 41);
             this.lbltext.Name = "lbltext";
-            this.lbltext.Size = new System.Drawing.Size(116, 21);
+            this.lbltext.Size = new System.Drawing.Size(130, 21);
             this.lbltext.TabIndex = 0;
-            this.lbltext.Text = "Add Inventory";
+            this.lbltext.Text = "Add List Devices";
             // 
             // panel2
             // 
@@ -104,7 +101,7 @@ namespace TOA_s_Project
             this.panel2.Location = new System.Drawing.Point(12, 85);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(372, 459);
-            this.panel2.TabIndex = 1;
+            this.panel2.TabIndex = 2;
             // 
             // label9
             // 
@@ -146,7 +143,6 @@ namespace TOA_s_Project
             this.btnSave.TabIndex = 8;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // label3
             // 
@@ -269,27 +265,16 @@ namespace TOA_s_Project
             this.itemName.Size = new System.Drawing.Size(190, 20);
             this.itemName.TabIndex = 0;
             // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.BorderRadius = 4;
-            this.guna2Elipse1.TargetControl = this.btnSave;
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // FormInventory
+            // FormListDevices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(396, 556);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "FormInventory";
+            this.Name = "FormListDevices";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form Inventory";
+            this.Text = "FormListDevices";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -303,6 +288,10 @@ namespace TOA_s_Project
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lbltext;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.RichTextBox description;
+        private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox location;
@@ -318,11 +307,5 @@ namespace TOA_s_Project
         private System.Windows.Forms.TextBox SerialNumber;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox itemName;
-        private System.Windows.Forms.Button btnSave;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private System.Windows.Forms.RichTextBox description;
-        private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.Label label9;
     }
 }

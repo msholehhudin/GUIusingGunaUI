@@ -42,13 +42,13 @@ namespace TOA_s_Project
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.gunaElipse2 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.checkbxShowPass = new System.Windows.Forms.CheckBox();
+            this.picClose = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.picClose = new System.Windows.Forms.PictureBox();
             this.picLogoTrans = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogoTrans)).BeginInit();
             this.SuspendLayout();
             // 
@@ -124,6 +124,7 @@ namespace TOA_s_Project
             this.txtRegister.Size = new System.Drawing.Size(93, 19);
             this.txtRegister.TabIndex = 5;
             this.txtRegister.Text = "Register Here";
+            this.txtRegister.Click += new System.EventHandler(this.txtRegister_Click);
             // 
             // btnLogin
             // 
@@ -163,6 +164,18 @@ namespace TOA_s_Project
             this.checkbxShowPass.UseVisualStyleBackColor = true;
             this.checkbxShowPass.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
+            // picClose
+            // 
+            this.picClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picClose.Image = global::TOA_s_Project.Properties.Resources.close_button;
+            this.picClose.Location = new System.Drawing.Point(296, 4);
+            this.picClose.Name = "picClose";
+            this.picClose.Size = new System.Drawing.Size(23, 19);
+            this.picClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picClose.TabIndex = 4;
+            this.picClose.TabStop = false;
+            this.picClose.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -186,18 +199,6 @@ namespace TOA_s_Project
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // picClose
-            // 
-            this.picClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picClose.Image = global::TOA_s_Project.Properties.Resources.close_button;
-            this.picClose.Location = new System.Drawing.Point(296, 4);
-            this.picClose.Name = "picClose";
-            this.picClose.Size = new System.Drawing.Size(23, 19);
-            this.picClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picClose.TabIndex = 4;
-            this.picClose.TabStop = false;
-            this.picClose.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // picLogoTrans
             // 
@@ -232,9 +233,9 @@ namespace TOA_s_Project
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormLogin";
+            ((System.ComponentModel.ISupportInitialize)(this.picClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogoTrans)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

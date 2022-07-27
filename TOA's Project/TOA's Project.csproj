@@ -105,8 +105,9 @@
     <Compile Include="Database\Connection.cs" />
     <Compile Include="Database\Inventory.cs" />
     <Compile Include="Database\InventoryClass.cs" />
+    <Compile Include="Database\SecureData.cs" />
     <Compile Include="Database\UserClass.cs" />
-    <Compile Include="DBInventory.cs" />
+    <Compile Include="Database\WriteOff.cs" />
     <Compile Include="FormInventory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +119,12 @@
     </Compile>
     <Compile Include="FormInventoryInfo.Designer.cs">
       <DependentUpon>FormInventoryInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormListDevices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListDevices.Designer.cs">
+      <DependentUpon>FormListDevices.cs</DependentUpon>
     </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
@@ -131,14 +138,27 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegister.Designer.cs">
+      <DependentUpon>FormRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="InventoryAtt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="userAtt.cs" />
     <Compile Include="UserControlDashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControlDashboard.Designer.cs">
       <DependentUpon>UserControlDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlEditProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlEditProfile.Designer.cs">
+      <DependentUpon>UserControlEditProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControlInv.cs">
       <SubType>UserControl</SubType>
@@ -152,11 +172,29 @@
     <Compile Include="UserControlInventory.Designer.cs">
       <DependentUpon>UserControlInventory.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControlList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlList.Designer.cs">
+      <DependentUpon>UserControlList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlSetting.Designer.cs">
+      <DependentUpon>UserControlSetting.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControlTry.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControlTry.Designer.cs">
       <DependentUpon>UserControlTry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlWriteOff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlWriteOff.Designer.cs">
+      <DependentUpon>UserControlWriteOff.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="connection.resx">
       <DependentUpon>connection.cs</DependentUpon>
@@ -167,11 +205,17 @@
     <EmbeddedResource Include="FormInventoryInfo.resx">
       <DependentUpon>FormInventoryInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormListDevices.resx">
+      <DependentUpon>FormListDevices.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegister.resx">
+      <DependentUpon>FormRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -186,14 +230,26 @@
     <EmbeddedResource Include="UserControlDashboard.resx">
       <DependentUpon>UserControlDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControlEditProfile.resx">
+      <DependentUpon>UserControlEditProfile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControlInv.resx">
       <DependentUpon>UserControlInv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlInventory.resx">
       <DependentUpon>UserControlInventory.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControlList.resx">
+      <DependentUpon>UserControlList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlSetting.resx">
+      <DependentUpon>UserControlSetting.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControlTry.resx">
       <DependentUpon>UserControlTry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlWriteOff.resx">
+      <DependentUpon>UserControlWriteOff.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

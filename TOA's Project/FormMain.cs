@@ -30,7 +30,9 @@ namespace TOA_s_Project
             lblUsername.Text = FormLogin.T_username;
             timerDateAndTime.Start();
             userControlInventory1.Visible = false;
-
+            userControlWriteOff1.Visible = false;
+            userControlSetting1.Visible = false;
+            userControlList1.Visible = false;
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -40,7 +42,8 @@ namespace TOA_s_Project
             {
                 MovePanel(btnLogout);
                 timerDateAndTime.Stop();
-                Close();
+                new FormLogin().Show();
+                this.Hide();
             }
         }
 
@@ -49,6 +52,9 @@ namespace TOA_s_Project
             MovePanel(btnDashboard);
             userControlDashboard1.Visible = true;
             userControlInventory1.Visible = false;
+            userControlWriteOff1.Visible = false;
+            userControlSetting1.Visible = false;
+            userControlList1.Visible = false;
         }
 
         private void btnMonitoring_Click(object sender, EventArgs e)
@@ -56,7 +62,9 @@ namespace TOA_s_Project
             MovePanel(btnMonitoring);
             userControlDashboard1.Visible = false;
             userControlInventory1.Visible = false;
-            
+            userControlWriteOff1.Visible = false;
+            userControlSetting1.Visible = false;
+            userControlList1.Visible = false;
 
         }
 
@@ -65,12 +73,43 @@ namespace TOA_s_Project
             MovePanel(btnInventory);
             userControlDashboard1.Visible = false;
             userControlInventory1.Visible = true;
-           
+            userControlWriteOff1.Visible = false;
+            userControlSetting1.Visible = false;
+            userControlList1.Visible = false;
         }
 
         private void timerDateAndTime_Tick(object sender, EventArgs e)
         {
             lblTimeAndDate.Text = DateTime.Now.ToString("dd-MMMM-yyyy HH:mm:ss tt");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            userControlDashboard1.Visible = false;
+            userControlInventory1.Visible = false;
+            userControlWriteOff1.Visible = true;
+            userControlSetting1.Visible = false;
+            userControlList1.Visible = false;
+        }
+
+        private void btnEditProf_Click(object sender, EventArgs e)
+        {
+            MovePanel(btnEditProf);
+            userControlDashboard1.Visible = false;
+            userControlInventory1.Visible = false;
+            userControlWriteOff1.Visible = false;
+            userControlSetting1.Visible = true;
+            userControlList1.Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MovePanel(btnEditProf);
+            userControlDashboard1.Visible = false;
+            userControlInventory1.Visible = false;
+            userControlWriteOff1.Visible = false;
+            userControlSetting1.Visible = false;
+            userControlList1.Visible = true;
         }
     }
 }

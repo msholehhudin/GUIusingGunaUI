@@ -80,5 +80,11 @@ namespace TOA_s_Project
             }
             
         }
+
+        private void txtRegister_Click(object sender, EventArgs e)
+        {
+            new FormRegister().Show();
+            this.Hide();
+        }
     }
 }

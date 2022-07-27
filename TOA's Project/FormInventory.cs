@@ -32,12 +32,14 @@ namespace TOA_s_Project
             inv.Quantity = quantity.Text;
             inv.Location = location.Text;
             inv.Description = description.Text;
+            inv.pic = FormLogin.T_username;
             inv.AddInventory();
         }
         public void UpdateInfo()
         {
             lbltext.Text = "Update Inventory";
             btnSave.Text = "Update";
+            txtID.Text = id;
             SerialNumber.Text = Serial_Number;
             itemName.Text = Item_Name;
             barcode.Text = Barcode;
@@ -46,6 +48,11 @@ namespace TOA_s_Project
             quantity.Text = Quantity;
             location.Text = Location;
             description.Text = Description;
+        }
+        public void SaveInfo()
+        {
+            lbltext.Text = "Add Inventory";
+            btnSave.Text = "Save";
         }
         private void btnSave_Click(object sender, EventArgs e)
         {
@@ -92,8 +99,8 @@ namespace TOA_s_Project
             }
             if(btnSave.Text == "Update")
             {
-                
-                inv.UpdateInventory();
+                InventoryAtt att = new InventoryAtt(SerialNumber.Text.Trim(), itemName.Text.Trim(), barcode.Text.Trim(), brand.Text.Trim(), itemType.Text.Trim(), quantity.Text.Trim(), location.Text.Trim(), description.Text.Trim());
+                inv.UpdateInventory(att, id);
                 Clear();
             }
             _parent.Display();

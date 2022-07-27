@@ -76,4 +76,10 @@ D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TO
 D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.UserControlInventory.resources
 D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.UserControlTry.resources
 D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\Guna.UI2.dll
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.FormRegister.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.UserControlWriteOff.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.UserControlEditProfile.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.UserControlSetting.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.UserControlList.resources
 D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA's Project.csproj.AssemblyReference.cache
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.FormListDevices.resources

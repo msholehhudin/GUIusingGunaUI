@@ -17,6 +17,8 @@ namespace TOA_s_Project
         public string Location { get; set; }
         public string Description { get; set; }
 
+
+
         public InventoryAtt(string serial_Number, string item_Name, string barcode, string brand, string item_type, string quantity, string location, string description)
         {
             Serial_Number = serial_Number;

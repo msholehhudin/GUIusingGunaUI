@@ -44,7 +44,7 @@ namespace TOA_s_Project
         }
         public void Display()
         {
-            DBInventory.DisplayAndSearch("SELECT * FROM inventory", dgvInventory);
+            //DBInventory.DisplayAndSearch("SELECT * FROM inventory", dgvInventory);
         }
         private void FormInventoryInfo_Shown(object sender, EventArgs e)
         {
