@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TOA_s_Project.Database;
 using MySql.Data.MySqlClient;
-using System.Data;
 
 namespace TOA_s_Project
 {
@@ -37,7 +36,7 @@ namespace TOA_s_Project
             } 
             
             
-            Update();
+            UpdatePass();
 
         }
 
@@ -82,7 +81,7 @@ namespace TOA_s_Project
             InitializeComponent();
         }
 
-        public void Update()
+        public void UpdatePass()
         {
             if (txtPassword.Text == txtConPass.Text && txtNickName.Text == FormLogin.T_username)
                 {

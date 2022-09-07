@@ -7,12 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TOA_s_Project.Database;
 
 namespace TOA_s_Project
 {
     public partial class UserControlList : UserControl
     {
+        ListDevices db = new ListDevices();
         FormListDevices form;
+        
         public UserControlList()
         {
             InitializeComponent();
@@ -23,5 +26,15 @@ namespace TOA_s_Project
         {
             form.ShowDialog();
         }
+        public void Display()
+        {
+            db.Filter_data("SELECT * FROM listdevices", dataGridView1);
+        }
+
+        private void UserControlList_Load(object sender, EventArgs e)
+        {
+            Display();
+        }
+       
     }
 }

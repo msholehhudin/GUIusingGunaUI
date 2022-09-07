@@ -1,0 +1,19 @@
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA's Project.csproj.AssemblyReference.cache
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.connection.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.FormInventory.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.FormInventoryInfo.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.FormListDevices.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.FormLogin.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.FormMain.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.FormRegister.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.Properties.Resources.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.UserControlDashboard.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.UserControlEditProfile.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.UserControlInv.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.UserControlInventory.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.UserControlList.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.UserControlSetting.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.UserControlTry.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA_s_Project.UserControlWriteOff.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA's Project.csproj.GenerateResource.cache
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Release\TOA's Project.csproj.CoreCompileInputs.cache

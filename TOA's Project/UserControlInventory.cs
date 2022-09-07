@@ -16,6 +16,7 @@ namespace TOA_s_Project
     {
         FormInventory form;
         InventoryClass inv = new InventoryClass();
+        History hstry = new History();
         WriteOff wo = new WriteOff();
         UserControlWriteOff wrto = new UserControlWriteOff();
         public UserControlInventory()
@@ -74,7 +75,7 @@ namespace TOA_s_Project
                 form.Brand          = dataGridView1.Rows[e.RowIndex].Cells[7].Value.ToString();
                 form.Item_Type      = dataGridView1.Rows[e.RowIndex].Cells[8].Value.ToString();
                 form.Quantity       = dataGridView1.Rows[e.RowIndex].Cells[9].Value.ToString();
-                form.Location       = dataGridView1.Rows[e.RowIndex].Cells[10].Value.ToString();
+                form.Loc            = dataGridView1.Rows[e.RowIndex].Cells[10].Value.ToString();
                 form.Description    = dataGridView1.Rows[e.RowIndex].Cells[11].Value.ToString();
                 form.UpdateInfo();
                 form.ShowDialog();
@@ -85,6 +86,13 @@ namespace TOA_s_Project
                 if(MessageBox.Show("Are You Sure Want to Delete this Data ?", "Information", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Information) == DialogResult.Yes)
                 {
                     inv.DeleteInventory(dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString());
+                    DateTime dateTime = new DateTime();
+                    hstry.name = FormLogin.T_username;
+                    hstry.action = "Delete an Inventory";
+                    hstry.item_name = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
+                    hstry.serial_number = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
+                    hstry.time = dateTime.ToString();
+                    hstry.AddInventory();
                     Display();
                 }
                 return;
@@ -106,11 +114,18 @@ namespace TOA_s_Project
                     wo.Description      = dataGridView1.Rows[e.RowIndex].Cells[11].Value.ToString();
                     wo.pic              = FormLogin.T_username;
                     wo.AddWriteOff();
-                    
+
+                    DateTime dateTime = new DateTime();
+                    hstry.name = FormLogin.T_username;
+                    hstry.action = "WriteOff an Inventory";
+                    hstry.item_name = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
+                    hstry.serial_number = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
+                    hstry.time = dateTime.ToString();
+                    hstry.AddInventory();
+
 
                     inv.DeleteInventory(dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString());
                     Display();
-                    wrto.Display();
                 }
                 return;
                 }

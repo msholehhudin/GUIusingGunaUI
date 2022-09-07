@@ -35,7 +35,7 @@ namespace TOA_s_Project.Database
                 cmd.Connection = conn;
 
                 cmd.Parameters.Add("@username", MySqlDbType.VarChar).Value = log_username;
-                cmd.Parameters.Add("@password", MySqlDbType.VarChar).Value = log_password;
+                cmd.Parameters.Add("@password", MySqlDbType.VarChar).Value = SecureData.EncryptData(log_password);
 
                 rd = cmd.ExecuteReader();
 

@@ -36,6 +36,10 @@ namespace TOA_s_Project
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.selector = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,10 +53,6 @@ namespace TOA_s_Project
             this.Column10 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Column11 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Column13 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txtSearch = new System.Windows.Forms.TextBox();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -115,7 +115,7 @@ namespace TOA_s_Project
             dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.EnableHeadersVisualStyles = false;
@@ -131,6 +131,44 @@ namespace TOA_s_Project
             this.dataGridView1.ShowRowErrors = false;
             this.dataGridView1.Size = new System.Drawing.Size(730, 368);
             this.dataGridView1.TabIndex = 4;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(67)))), ((int)(((byte)(108)))));
+            this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAdd.FlatAppearance.BorderSize = 0;
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdd.ForeColor = System.Drawing.Color.White;
+            this.btnAdd.Location = new System.Drawing.Point(8, 16);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(110, 32);
+            this.btnAdd.TabIndex = 5;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::TOA_s_Project.Properties.Resources.Background;
+            this.pictureBox1.Location = new System.Drawing.Point(708, 22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 22);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtSearch.Location = new System.Drawing.Point(486, 22);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(222, 20);
+            this.txtSearch.TabIndex = 6;
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.TargetControl = this.btnAdd;
             // 
             // Column1
             // 
@@ -184,7 +222,7 @@ namespace TOA_s_Project
             // 
             this.Column7.DataPropertyName = "quantity";
             this.Column7.FillWeight = 98.01569F;
-            this.Column7.HeaderText = "Quantity";
+            this.Column7.HeaderText = "Qty";
             this.Column7.Name = "Column7";
             this.Column7.ReadOnly = true;
             // 
@@ -244,7 +282,7 @@ namespace TOA_s_Project
             // 
             // Column13
             // 
-            this.Column13.DataPropertyName = "writeoff";
+            this.Column13.DataPropertyName = "Using Now";
             this.Column13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Column13.HeaderText = "";
             this.Column13.Name = "Column13";
@@ -252,44 +290,6 @@ namespace TOA_s_Project
             this.Column13.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.Column13.Text = "WriteOff";
             this.Column13.UseColumnTextForButtonValue = true;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(67)))), ((int)(((byte)(108)))));
-            this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAdd.FlatAppearance.BorderSize = 0;
-            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(8, 16);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(110, 32);
-            this.btnAdd.TabIndex = 5;
-            this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = false;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::TOA_s_Project.Properties.Resources.Background;
-            this.pictureBox1.Location = new System.Drawing.Point(708, 22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 22);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            // 
-            // txtSearch
-            // 
-            this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSearch.Location = new System.Drawing.Point(486, 22);
-            this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(222, 20);
-            this.txtSearch.TabIndex = 6;
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this.btnAdd;
             // 
             // UserControlList
             // 
@@ -301,6 +301,7 @@ namespace TOA_s_Project
             this.Controls.Add(this.txtSearch);
             this.Name = "UserControlList";
             this.Size = new System.Drawing.Size(747, 439);
+            this.Load += new System.EventHandler(this.UserControlList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -312,6 +313,10 @@ namespace TOA_s_Project
 
         private System.Windows.Forms.ComboBox selector;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txtSearch;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -325,9 +330,5 @@ namespace TOA_s_Project
         private System.Windows.Forms.DataGridViewButtonColumn Column10;
         private System.Windows.Forms.DataGridViewButtonColumn Column11;
         private System.Windows.Forms.DataGridViewButtonColumn Column13;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox txtSearch;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
     }
 }

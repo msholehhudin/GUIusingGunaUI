@@ -22,6 +22,7 @@ namespace TOA_s_Project.Database
         public string Location { get; set; }
         public string Description { get; set; }
         public string pic { get; set; }
+        public string hitung { get; set; }
 
         //FOR ID
         public string id { get; set; }
@@ -37,6 +38,16 @@ namespace TOA_s_Project.Database
             DataTable dt = new DataTable();
             da.Fill(dt);
             dgv.DataSource = dt;
+        }
+
+        public void Count(String query)
+        {
+            conn.Open();
+            string sql = query;
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+            var count1 = cmd.ExecuteScalar();
+            hitung = count1.ToString();
+            conn.Close();
         }
 
         public void AddInventory()

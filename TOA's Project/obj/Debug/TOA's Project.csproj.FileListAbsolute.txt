@@ -81,5 +81,9 @@ D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TO
 D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.UserControlEditProfile.resources
 D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.UserControlSetting.resources
 D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.UserControlList.resources
-D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA's Project.csproj.AssemblyReference.cache
 D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA_s_Project.FormListDevices.resources
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\TOA's Project.exe.manifest
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\bin\Debug\TOA's Project.application
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA's Project.exe.manifest
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA's Project.application
+D:\Sholeh\GUIusingGunaUI-master\GUIusingGunaUI-master\TOA's Project\obj\Debug\TOA's Project.csproj.AssemblyReference.cache
